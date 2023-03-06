@@ -24,5 +24,5 @@ galleryContainer.append(...imageElements);
 
 let lightbox = new SimpleLightbox('.gallery a', { caption: true, captionSelector: 'img[alt]', captionType: 'attr', captionsData: 'alt', captionPosition: 'bottom', captionDelay: 250 }); 
 
-
+ 
 console.log(galleryItems);
